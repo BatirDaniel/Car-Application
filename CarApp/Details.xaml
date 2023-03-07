@@ -1,0 +1,100 @@
+﻿<Window x:Class="CarApp.Details"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarApp"
+        mc:Ignorable="d"
+        FontSize="19"
+        Background="LightBlue"
+        WindowStartupLocation="CenterScreen"
+        Title="Details" Height="450" Width="500">
+    <StackPanel>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Detail Application"
+                       FontSize="28"
+                       Margin="0 0 0 20"
+                       FontWeight="Bold"
+                       Grid.Row="0"
+                       Grid.ColumnSpan="2"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+
+            <TextBlock Text="Author :"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Grid.Row="1"
+                       Padding="20"
+                       Grid.Column="0"/>
+
+
+            <TextBlock Text="Batir Daniel"
+                       Grid.Row="1"
+                       Padding="20"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Grid.Column="1"/>
+
+            <TextBlock Text="Title :"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Grid.Row="2"
+                       Padding="20"
+                       Grid.Column="0"/>
+
+            <TextBlock Text="Car application"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Grid.Row="2"
+                       Padding="20"
+                       Grid.Column="1"/>
+
+            <TextBlock Text="Description :"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Grid.Row="3"
+                       Padding="20"
+                       Grid.Column="0"/>
+            <TextBlock Text="Aceasta este o aplicație software pentru utilizatori care își doresc 
+                       să țină evidența automobilelor proprii sau a unei flote de mașini"
+                       Grid.Row="3"
+                       Grid.Column="1"
+                       TextWrapping="Wrap"
+                       FontSize="18"
+                       Padding="20"
+                       TextAlignment="Left"/>
+            <TextBlock Text="Created :"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Grid.Row="4"
+                       Padding="20"
+                       Grid.Column="0"/>
+            <TextBlock Text="3 January 2023"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Grid.Row="4"
+                       Padding="20"
+                       Grid.Column="1"/>
+            <TextBlock Text="© 2023 Car App , Inc"
+                       Grid.Row="5"
+                       Grid.ColumnSpan="2"
+                       VerticalAlignment="Center"
+                       FontSize="14"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"/>
+        </Grid>
+    </StackPanel>
+</Window>
